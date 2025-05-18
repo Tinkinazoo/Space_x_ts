@@ -1,0 +1,38 @@
+/* GameSpace.css */
+.game-space {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.grid {
+  margin: 20px auto;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+.cell.player {
+  background-color: #4285f4;
+  border-radius: 50%;
+}
+
+.cell.obstacle {
+  background-color: #333;
+}
+
+.cell.goal {
+  background-color: #0f9d58;
+}
+
+.game-over-message {
+  font-size: 24px;
+  color: #0f9d58;
+  margin: 20px 0;
+  font-weight: bold;
+}
